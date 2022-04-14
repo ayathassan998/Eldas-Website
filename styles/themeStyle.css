@@ -1,0 +1,150 @@
+
+
+.back_pirble {
+    background-color: #873aed;
+}
+
+.back_red {
+    background-color: #ff531e;
+}
+
+.back_white {
+    background-color: #ffffff;
+}
+
+.back_black {
+    background-color: #191919;
+}
+
+.back_gray {
+    background-color: #b5c4c9;
+}
+
+.back_gray_secondary {
+    background-color: #f2f7f9;
+}
+
+.back_primary {
+    background-color: #207ee8;
+}
+
+.back_secondary {
+    background-color: #f4fbfd;
+}
+
+.text_white {
+    color: #ffffff;
+}
+
+.text_black {
+    color: #000000;
+}
+
+.text_primary {
+    color: #207ee8;
+}
+
+
+button {
+    color: #ffffff;
+}
+
+.shadow {
+    box-shadow: 3px 3px 6px #ccc;
+}
+
+.shadow_two{
+    box-shadow: 0px 0px 6px;    
+}
+
+/********** Start Our Portoflio **********/
+.Dashboard_Features .feature_icon {
+    background-color: #d2f2fe;
+}
+
+.Userfriendly_Features .feature_icon {
+    background-color: #c7f8fc;
+}
+
+.Colour_Shemes .feature_icon {
+    background-color: #fad1c5;
+}
+
+.Different_Layouts .feature_icon {
+    background-color: #e4ccfe;
+}
+
+.Based_Graphics .feature_icon {
+    background-color: #a7f3c8;
+}
+
+.Perfect_Design .feature_icon {
+    background-color: #ffc0d4;
+}
+/********** End Our Portoflio **********/
+
+
+/********** Start Our Portoflio **********/
+.section_tab label.active {
+    border-bottom-color:#207ee8;
+    color: #207ee8;
+}
+
+.content_tab .portoflio_box:hover {
+    background-color: #d1471d;
+}
+/********** End Our Portoflio **********/
+
+
+/********** Start create portfolio **********/
+.gallary_title h2::before {
+    background-color: white;
+}
+/********** End create portfolio **********/
+
+
+/********** Start our offers **********/
+.offer_box_one {
+    border-image: linear-gradient(to right, rgb(31, 129, 238), rgb(34, 176, 227), rgb(37, 220, 217)) 1;
+}
+
+.offer_box_two {
+    border-image: linear-gradient(to right, rgb(115, 24, 208), rgb(191, 30, 152), rgb(227, 33, 125)) 1;
+}
+
+.offer_box_three {
+    border-image: linear-gradient(to right, rgb(250, 38, 57), rgb(249, 77, 52), rgb(249, 109, 48)) 1;
+}
+/********** End our offers **********/
+
+
+/********** Start create portfolio **********/
+.gallary_title {
+    position: relative;
+    top: 365px;
+    left: 13%;
+    padding: 54px 36px 28px;
+    max-width: 330px;
+    background: -webkit-linear-gradient(-61deg, rgb(46, 242, 156) 0%, rgb(42, 215, 174) 30%, rgb(30, 110, 242) 100%);
+    background: -o-linear-gradient(-61deg, rgb(46, 242, 156) 0%, rgb(42, 215, 174) 30%, rgb(30, 110, 242) 100%);
+    background: -moz-linear-gradient(-61deg, rgb(46, 242, 156) 0%, rgb(42, 215, 174) 30%, rgb(30, 110, 242) 100%);
+    background: linear-gradient(-61deg, rgb(46, 242, 156) 0%, rgb(42, 215, 174) 30%, rgb(30, 110, 242) 100%);
+}
+/********** End create portfolio **********/
+
+
+/********** Start action section **********/
+.action_section {
+    background: url(../images/stars.png), -webkit-linear-gradient(-61deg, rgb(46, 242, 156) 0%, rgb(42, 215, 174) 30%, rgb(30, 110, 242) 100%);
+    background: url(../images/stars.png), -o-linear-gradient(-61deg, rgb(46, 242, 156) 0%, rgb(42, 215, 174) 30%, rgb(30, 110, 242) 100%);
+    background: url(../images/stars.png), -moz-linear-gradient(-61deg, rgb(46, 242, 156) 0%, rgb(42, 215, 174) 30%, rgb(30, 110, 242) 100%);
+    background: url(../images/stars.png), linear-gradient(-61deg, rgb(46, 242, 156) 0%, rgb(42, 215, 174) 30%, rgb(30, 110, 242) 100%);
+}
+
+.action_icon {
+    background: -webkit-linear-gradient(-45deg, rgb(254, 58, 67) 80%, rgb(255, 80, 43) 0%);
+    background: -o-linear-gradient(-45deg, rgb(254, 58, 67) 80%, rgb(255, 80, 43) 0%);
+    background: -moz-linear-gradient(-45deg, rgb(254, 58, 67) 80%, rgb(255, 80, 43) 0%);
+    background: linear-gradient(-45deg, rgb(254, 58, 67) 80%, rgb(255, 80, 43) 0%);
+}
+/********** End action section **********/

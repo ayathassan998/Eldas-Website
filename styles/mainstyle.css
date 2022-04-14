@@ -1,0 +1,629 @@
+@font-face {
+    font-family: 'montserrat';
+    src: url('../Fonts/montserrat-bold-webfont.eot');
+    src: url('../Fonts/montserrat-bold-webfont.woff') format('woff'), url('../Fonts/montserrat-bold-webfont.ttf') format('truetype'), url('../Fonts/montserrat-bold-webfont.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-family: 'montserrat';
+    font-weight: 500;
+    line-height: 1.2;
+    color: inherit;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-family: 'WorkSans-SemiBold';
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+label {
+    font-family: 'WorkSans-SemiBold';
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    letter-spacing: 2px;
+}
+
+button {
+    border: 0;
+    border-radius: 36px;
+    padding: 12px 24px;
+    font-size: 14px;
+}
+
+.section_header {
+    margin-bottom: 34px;
+}
+
+.section_header h2 {
+    font-weight: bold;
+}
+
+/********** Start Main Slider **********/
+.main_slider {
+    position: relative;
+    background-image: url(../images/stars.png);
+    background-size: cover;
+    margin-bottom: 22%;
+}
+
+/************* Start Background Slider ********************/
+.background_slider,
+.background_slider>div {
+    position: absolute;
+}
+
+.background_slider>div {
+    top: 0;
+    right: 0px;
+}
+
+.background_slider {
+    /* top: 0; */
+    z-index: -1;
+    /* left: 0; */
+    position: relative;
+}
+
+.background_slider .Basic_background img {
+    z-index: 1;
+    width: 971px;
+    /* top: 0; */
+    /* right: 0; */
+}
+
+.background_slider .overlay_background img {
+    z-index: 2;
+    width: 971px;
+}
+
+.background_slider .graphics_background {
+    position: relative;
+}
+
+.background_slider .graphics_background img {
+    z-index: 4;
+    width: 630px;
+    position: absolute;
+    top: 150px;
+    right: 8%;
+}
+
+/************* End Background Slider ********************/
+
+
+/********** Start Header **********/
+.navbar_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 40px 16px 40px;
+}
+
+.logo_brand img {
+    width: 100px;
+}
+
+.navbar_list ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar_list ul li {
+    display: inline-block;
+    margin-right: 50px;
+    font-size: 14px;
+}
+
+.navbar_list ul li:last-child {
+    margin-right: 0;
+}
+
+.navbar_icons {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_icons>div {
+    margin-right: 26px;
+}
+
+.navbar_icons>div:last-child {
+    margin-right: 0;
+}
+
+.navbar_icons img {
+    width: 16px;
+}
+
+.navbar_icons .language {
+    display: flex;
+    align-items: center;
+}
+
+.navbar_icons .language img {
+    margin-right: 6px;
+}
+
+.navbar_icons .chart {
+    position: relative;
+}
+
+.navbar_icons .chart span {
+    border-radius: 50%;
+    position: absolute;
+    font-size: 10px;
+    width: 14px;
+    height: 14px;
+    bottom: 10px;
+    left: 10px;
+    text-align: center;
+}
+
+/********** End Header **********/
+
+/********** Start Slider Content **********/
+.slider_content {
+    max-width: 538px;
+    padding: 6% 12% 6% 10%;
+}
+
+.slider_content button img {
+    width: 5px;
+    margin-left: 20px;
+}
+
+/********** End Slider Content **********/
+
+/********** End Main Slider **********/
+
+
+/********** Start create portfolio **********/
+.create_portfolio {
+    margin-bottom: 22%;
+}
+
+.background_portfolio {
+    position: relative;
+}
+
+.background_portfolio>div {
+    position: absolute;
+}
+
+.pattern_one {
+    top: 60px;
+    left: 18%;
+}
+
+.pattern_one img {
+    width: 276px;
+}
+
+.pattern_two {
+    left: -8%;
+    top: 455px;
+}
+
+.pattern_two img {
+    width: 268px;
+}
+
+.pattern_three {
+    top: 196px;
+    left: 35%;
+}
+
+.gallary_one {
+    top: 134px;
+    left: 0%;
+}
+
+.gallary_one img {
+    width: 283px;
+}
+
+.gallary_two {
+    top: 42px;
+    left: 46%;
+}
+
+.gallary_two img {
+    width: 251px;
+}
+
+.gallary_three {
+    left: 17%;
+    top: 226px;
+}
+
+.gallary_three img {
+    width: 410px;
+}
+
+.gallary_title {
+    position: relative;
+    top: 365px;
+    left: 13%;
+    padding: 54px 36px 28px;
+    max-width: 330px;
+}
+
+.gallary_title h2::before {
+    content: "";
+    display: block;
+    width: 20%;
+    height: 3px;
+    position: absolute;
+    top: 38px;
+    left: 38px;
+}
+
+.create_portfolio_content {
+    padding: 86px 15px;
+}
+
+.create_portfolio_content h2 {
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+/********** End create portfolio **********/
+
+/********** Start action section **********/
+.action_section {
+    background-size: cover;
+    padding: 58px 0px 150px 0px;
+    margin-bottom: 20%;
+}
+
+.action_box {
+    position: absolute;
+    padding: 20px 28px;
+    max-width: 86%;
+    margin-top: 60px;
+    background-image: url(../images/02.png);
+    background-size: 14%;
+    background-position: 58%;
+    background-repeat: no-repeat;
+    transform: translate(-86px, -60px);
+}
+
+.action_icon {
+    border-radius: 50%;
+    width: 11%;
+    height: 54px;
+    padding: 8px;
+    position: relative;
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.action_icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.action_left_box .action_icon img {
+    height: 28px;
+}
+
+
+.action_right_box .action_icon img {
+    height: 40px;
+}
+
+/********** End action section **********/
+
+/********** Start Our Client **********/
+.our_client {
+    margin-bottom: 10%;
+}
+
+.feature_icon {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    position: relative;
+    margin-bottom: 12px;
+}
+
+.feature_icon img {
+    width: 28px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/********** End Our Client **********/
+
+/********** Start Our Portoflio **********/
+.our_portoflio {
+    margin-bottom: 12%;
+}
+
+.section_tab label {
+    margin-left: 4%;
+    transition: all ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.section_tab label.active {
+    border-bottom: 1px solid;
+}
+
+.content_tab {
+    margin-top: 20px;
+}
+
+.content_tab>div:not(:first-child) {
+    display: none;
+}
+
+.content_tab .row {
+    margin-bottom: 15px;
+}
+
+.content_tab .portoflio_box {
+    text-align: center;
+    transition: all ease-in-out 0.5s;
+    position: relative;
+    margin: auto;
+    padding: 50px 0px;
+    min-height: 200px;
+}
+
+.content_tab .portoflio_box .box_data {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    opacity: 0;
+    transition: all ease-in-out 0.5s;
+}
+
+.content_tab .portoflio_box:hover {
+    border: 6px solid #191919;
+}
+
+.portoflio_box:hover .box_data {
+    opacity: 1;
+}
+
+.special_box {
+    min-height: 416px !important;
+}
+
+.content_tab .box_data hr {
+    height: 2px;
+    width: 20%;
+}
+
+.our_portoflio .portoflio_btn button {
+    margin-top: 12px;
+}
+
+/********** End Our Portoflio **********/
+
+/********** Start Play Video **********/
+.Play_video {
+    align-items: center;
+    margin-bottom: 12%;
+}
+
+
+.Play_video h2 {
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.background_video {
+    position: relative;
+    background-image: url(../images/background_video.png);
+    background-size: 80%;
+    background-position: 58%;
+    background-repeat: no-repeat;
+}
+
+.background_video .pattern_three {
+    position: absolute;
+    top: -26%;
+    left: -3%;
+    z-index: -1;
+    transform: rotate(180deg);
+}
+
+.background_video .pattern_three img {
+    width: 80%;
+}
+
+.background_video .pattern_two {
+    position: absolute;
+    left: 60%;
+    top: 60%;
+    z-index: -1;
+}
+
+.background_video .video_pattern {
+    position: relative;
+    display: block;
+    text-align: right;
+}
+
+.background_video .video_pattern img:first-child {
+    width: 70%;
+}
+
+.background_video .video_pattern img:last-child {
+    width: 12%;
+    position: absolute;
+    top: 82px;
+    left: 46%;
+}
+
+
+/********** End Play Video **********/
+
+/********** Start our offers **********/
+.our_offers {
+    padding: 40px 0px 90px;
+    margin-bottom: 6%;
+}
+
+.offers_data_box {
+    padding: 24px 12px;
+    border-top: 6px solid transparent;
+}
+
+.offers_data_box label:first-child {
+    margin-bottom: 12px;
+}
+
+.main_pric {
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+    display: block;
+    margin: auto;
+}
+
+.main_pric span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 40px;
+    font-weight: bold;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.offers_data_box p {
+    margin-top: 12px;
+}
+
+.details_price {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 12px;
+}
+
+.details_price img {
+    margin-right: 6px;
+}
+
+.offers_data_box button {
+    margin-top: 12px;
+}
+
+/********** End our offers **********/
+
+/********** Start Client **********/
+.Clients {
+    margin-bottom: 6%;
+}
+
+.client_pic {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 6%;
+}
+
+.client_pic img {
+    height: 20%;
+}
+
+/********** End CLient **********/
+
+
+/********** Start footer **********/
+.footer {
+    margin-bottom: 38px;
+}
+
+.footer_data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 14px;
+}
+
+.top_footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.top_footer h2 {
+    font-size: 20px;
+}
+
+.footer_data span {
+    border-radius: 5px;
+    padding: 2px 8px;
+    font-size: 10px;
+}
+
+.footer_data>* {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.contact_icon {
+    margin-right: 12px;
+    border-radius: 50%;
+    padding: 6px;
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.contact_item {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.contact_icon img {
+    width: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.bottom_footer {
+    margin-top: 20px;
+}
+
+/********** End footer **********/
+/*******************************/
